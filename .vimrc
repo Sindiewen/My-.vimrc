@@ -15,6 +15,9 @@ call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
 
+" -------------------------------------------------------------------
+" Initializing Plugins
+
 " Cool vim plugins to check out
 " https://medium.com/@huntie/10-essential-vim-plugins-for-2018-39957190b7a9
 
@@ -36,7 +39,7 @@ Plugin 'scrooloose/nerdtree'
 " Installing vim code dark
 Plugin 'tomasiser/vim-code-dark'
 
-
+" -------------------------------------------------------------------
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -55,7 +58,7 @@ filetype plugin indent on    " required
 
 " ------------------------------------------------------------------
 "  Personal Tweaks
-"
+
 "  ------------------------------------------------------------------
 " Turns off the invalid sound effect for vim
 set belloff=all
